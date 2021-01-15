@@ -121,7 +121,6 @@ private:
     {
     private:
         CSVParser& parent;
-        tuple<Args...> line;
         size_t index;
         vector<string> fields;
 
